@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: salmon; */
+}
+.container img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -999;
+}
+header {
+    width: 90%;
+    height: 15vh;
+    /* background-color: salmon; */
+    display: flex;
+    justify-content: space-between;
+}
+header .canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+.canvas h2 {
+    color: white;
+}
+header .canvas i {
+    font-size: 40px;
+    color: white;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    width: 40%;
+    /* background-color: blue; */
+    /* justify-content: space-around; */
+}
+header ul li {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-size: 60px; */
+}
+header ul li:hover {
+    background-color: gold;
+}
+main {
+    height: 85vh;
+    width: 90%;
+    /* background-color: aqua; */
+}
+.text {
+    display: flex;
+    /* background-color: aqua; */
+    height: 40vh;
+}
+.text .left {
+    width: 45%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.text .right {
+    width: 55%;
+    /* background-color: rgb(70, 141, 158); */
+}
+.text .right i {
+    position: absolute;
+    font-size: 30px;
+    background-color: white;
+    right: 55px;
+    top: 150px;
+    padding: 15px;
+}
+.text .left h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 45px;
+    line-height: 50px;
+}
+.text .left p {
+    color: aliceblue;
+}
+.icon {
+    height: 45vh;
+    /* background-color: salmon; */
+}
+.icon a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(212, 19, 5);
+    color: white;
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.icon a:hover {
+    background-color: gold;
+}
+.icon scan {
+    padding: 0px 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.icon i {
+    display: inline-block;
+    font-size: 50px;
+    color: white;
+}
+.icon p {
+    color: rgb(0, 0, 0);
+}
